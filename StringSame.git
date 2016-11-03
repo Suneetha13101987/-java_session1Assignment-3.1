@@ -1,0 +1,17 @@
+
+public class StringSame {
+
+	public static void main(String args[])
+	{
+		String s1="suneetha", s2="sunitha";
+		boolean same;
+		if(same=s1.equals(s2))
+		{
+			System.out.println("The variable of same is "+same);
+		}
+		else
+		{
+			System.out.println("The variable of same is "+same);
+		}
+	}
+}
