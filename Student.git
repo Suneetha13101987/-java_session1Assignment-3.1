@@ -30,14 +30,14 @@ public class Student {
 	public static void main(String args[])
 	{
 		
-		Student st1 = new Student(11,20,78,70,77,57,"suneetha");
-		System.out.println("student1 details:"+st1.rollno +" " +st1.age +" "+st1.englishMarks +" "+st1.mathsMarks +" "+st1.scienceMarks +" "+st1.socialMarks +" "+st1.name +" "+st1.age +" "+st1.avgMarks() +" "+Student.collegename);
+		Student st1 = new Student(11,20,78,70,77,57,"Suneetha");
+		System.out.println("student1 details: roll number: "+st1.rollno+" age is " +st1.age +" name is "+st1.name +" age: "+st1.age +" average marks obtained is "+st1.avgMarks() +" studying in "+Student.collegename);
 		
-		Student st2 = new Student(12,19,71,73,67,77,"suneetha");
-		System.out.println("student2 details:"+st2.rollno +" " +st2.age +" "+st2.englishMarks +" "+st2.mathsMarks +" "+st2.scienceMarks +" "+st2.socialMarks +" "+st2.name +" "+st2.age +" "+st2.avgMarks() +" "+Student.collegename );
+		Student st2 = new Student(12,19,71,73,67,77,"Manjula Vani");
+		System.out.println("student1 details: roll number: "+st2.rollno+" age is " +st2.age +" name is "+st2.name +" age: "+st2.age +" average marks obtained is "+st2.avgMarks() +" studying in "+Student.collegename);
 		
-		Student st3 = new Student(13,21,65,71,77,47,"suneetha");
-		System.out.println("student3 details:"+st3.rollno +" " +st3.age +" "+st3.englishMarks +" "+st3.mathsMarks +" "+st3.scienceMarks +" "+st3.socialMarks +" "+st3.name +" "+st3.age +" "+st3.avgMarks() +" "+Student.collegename);
+		Student st3 = new Student(13,21,65,71,77,47,"Akshita");
+		System.out.println("student1 details: roll number: "+st3.rollno+" age is " +st3.age +" name is "+st3.name +" age: "+st3.age +" average marks obtained is "+st3.avgMarks() +" studying in "+Student.collegename);
 	}
 
 }
